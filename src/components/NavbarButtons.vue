@@ -22,7 +22,7 @@ function toggleDarkTheme() {
       <c-button
         circle
         variant="text"
-        href="https://github.com/CorentinTh/it-tools"
+        href="https://github.com/derDeno/it-tools"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="IT-Tools' GitHub repository"
@@ -31,22 +31,6 @@ function toggleDarkTheme() {
       </c-button>
     </template>
     Github repository
-  </n-tooltip>
-
-  <n-tooltip trigger="hover">
-    <template #trigger>
-      <c-button
-        circle
-        variant="text"
-        href="https://twitter.com/ittoolsdottech"
-        rel="noopener"
-        target="_blank"
-        aria-label="IT Tools' Twitter account"
-      >
-        <n-icon size="25" :component="BrandTwitter" />
-      </c-button>
-    </template>
-    IT Tools' Twitter account
   </n-tooltip>
 
   <n-tooltip trigger="hover">

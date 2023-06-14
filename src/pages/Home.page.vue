@@ -8,7 +8,7 @@ import { config } from '@/config';
 
 const toolStore = useToolStore();
 
-useHead({ title: 'IT Tools - Handy online tools for developers' });
+useHead({ title: 'IT Tools | code7' });
 </script>
 
 <template>
@@ -19,19 +19,11 @@ useHead({ title: 'IT Tools - Handy online tools for developers' });
           <ColoredCard title="You like it-tools?" :icon="Heart">
             Give us a star on
             <a
-              href="https://github.com/CorentinTh/it-tools"
+              href="https://github.com/derDeno/it-tools"
               rel="noopener"
               target="_blank"
               aria-label="IT-Tools' GitHub repository"
             >GitHub</a>
-            or follow us on
-            <a
-              href="https://twitter.com/ittoolsdottech"
-              rel="noopener"
-              target="_blank"
-              aria-label="IT-Tools' Twitter account"
-            >Twitter</a>! Thank you
-            <n-icon :component="Heart" />
           </ColoredCard>
         </n-gi>
       </n-grid>
