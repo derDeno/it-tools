@@ -52,6 +52,8 @@ const { tracker } = useTracker();
       </c-link>
       in the GitHub repository.
     </n-p>
+    <br>
+    <img src="/logo.svg">
   </div>
 </template>
 
