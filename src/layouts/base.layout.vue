@@ -41,8 +41,7 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div class="divider" />
           <div class="subtitle">
-            Handy tools for developers <br>
-            by code7
+            Handy tools for developers
           </div>
         </div>
       </RouterLink>
@@ -60,6 +59,9 @@ const tools = computed<ToolCategory[]>(() => [
             <c-link target="_blank" rel="noopener" href="https://github.com/derDeno">
               Deniz Celebi
             </c-link>
+            <br>
+            <br>
+            <img src="/logo.svg">
           </div>
         </div>
       </div>
